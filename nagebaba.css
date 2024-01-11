@@ -1,0 +1,196 @@
+body{
+    background: #f9f9f9;
+    font-size: 16px !important;
+    font-family:'Trebuchet MS', sans-serif
+}
+.third_nav{
+    /* background-image: linear-gradient(skyblue,rgb(46, rgb(43, 63, 71),skyblue); */
+    background-image: linear-gradient(skyblue,skyblue,rgb(33, 76, 92),darkblue);
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.nav-item{
+    margin-left: 20px;
+
+}
+.nav-item:hover{
+    /* background-color: rgb(64, 57, 128); */
+    background:  rgba(0,106,128,255)!important;
+
+    /* color: black !important; */
+}
+
+    .nav-item:hover .nav-link{
+    color: white !important;
+
+
+    }
+    .logo{
+        height: 60px;
+        border: 2px solid black;
+    }
+
+
+    .carousel-item img{
+        height: 350px;
+
+    }
+
+    .dd:hover .do .dropdown-menu {
+        display: inline-block;
+        color: black;
+        
+        /* color: white; */
+    }
+ .do .dropdown-menumenu{
+        display: none;
+
+    }
+.v p{
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgba(135, 180, 135, 0.801),skyblue,rgb(76, 151, 236));
+    
+}
+.v p:hover{
+    color: white;
+}
+.icon{
+    padding: 15px;
+    border: 2px solid black;
+    /* border: 3px solid black; */
+
+}
+.icon:hover{
+    padding: 15px;
+    color: green;
+    background:rgb(4, 4, 65);
+    outline: 4px groove black;
+    outline-offset:1px ;
+}
+.card:hover .card-header .icon{
+      outline: 4px groove red;
+    outline-offset:3px ; 
+ 
+}
+.three_card:hover{
+    border: 1px solid black;
+}
+.fs{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.three_cards .card-header:hover{
+    background-color: red; 
+    /* border: 20px solid red; */
+    
+}
+.three_cards .card-header .card-img-overlay{
+    display: none;
+}
+.three_cards .card-header .card-img-overlay i{
+    display: none;
+}
+.three_cards .card-header:hover .card-img-overlay{
+    display: inline-block;
+    height: 200px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+   
+
+}
+.three_cards .card-header:hover .card-img-overlay i{
+    display: inline-block;
+    /* color: rgb(32, 236, 32); */
+    transform: rotateX(180deg);
+    
+    transition-duration: 2s;
+
+}
+.three_cards .card-header .card-img-overlay i:hover{
+    display: inline-block;
+    color: rgb(32, 236, 32);
+
+}
+span{
+    color: rgb(221, 216, 216);
+}
+span:hover{
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
+
+}
+.footer_list_style{
+    list-style-type: none;
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+}
+.overlay .container-fluid {
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.feedback_form_input input{
+    width: 98%;
+    margin: 13px;
+    padding: 10px;
+
+}
+.btn-success{
+    background:  rgba(0,106,128,255)!important;
+}
+.btn-success:hover{
+    background:  rgba(90,157,55,255)!important;
+}
+.seva{
+    background:rgba(0,106,128,255);
+}
+.seva:hover{
+    background:  rgba(90,157,55,255)!important;
+}
+.media_page_list_style{
+    list-style-type: none;
+}
+.media_page_list_names span:hover{
+    font-size: 16px;
+    color:  rgba(0,106,128,255)!important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-outline-dark:hover{
+    background-color:  rgba(0,106,128,255)!important;
+    color: white !important;
+}
+.body:hover .float-start img{
+    filter: brightness(20%) hue-rotate(360deg);
+
+}
+.aapli_kame-btn {
+    background:  rgba(0,106,128,255)!important;
+
+}
+.aapli_kame-btn:hover{
+    background:  rgba(90,157,55,255)!important;
+
+}
+.read_more_aapli_kame:hover{
+    color: rgb(247, 116, 116);
+}
+.book_card{
+    /* height: 300px; */
+    
+
+}
+ .do .dropdown-menu li:hover a{
+    background:  rgba(0,106,128,255)!important;
+    color: white !important;
+
+
+}
+
